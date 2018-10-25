@@ -1,17 +1,17 @@
 import React from 'react';
 import {
-    BrowserRouter,
     Route,
     Switch,
 } from 'react-router-dom';
-import Home from './Home';
+import App from '../containers/App';
+import Todos from '../containers/Todos';
+import Todo from '../containers/Todo';
 
 export const Router = () => (
-    <BrowserRouter>
-        <Switch>
-            <Route path="/" exact component={Home} />
-        </Switch>
-    </BrowserRouter>
+    <Switch>
+        <Route path="/" exact component={App} />
+        <Route path='/:id' component={Todo} />
+    </Switch>
 );
 
 export default Router;
