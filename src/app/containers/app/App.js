@@ -69,7 +69,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state);
     const { appName, connectionStatus, helloWord } = this.state;
     const { userInfos, userIsConnected } = this.props;
     const { sideMenuIsCollapsed, currentView } = this.props;

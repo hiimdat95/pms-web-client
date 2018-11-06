@@ -40,6 +40,7 @@ class Menu extends PureComponent {
   }
 
   render() {
+    console.log(this.props);
     const {
       headerTitle,
       headerBackColor,

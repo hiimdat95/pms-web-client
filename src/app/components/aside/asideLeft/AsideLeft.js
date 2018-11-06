@@ -57,6 +57,8 @@ const AsideLeft = ({
       {
         sideMenu.map(
           ({id, group, menus}, menuIdx) => {
+            console.log('menus');
+            console.log(menus);
             return (
               <Menu
                 key={menuIdx}
