@@ -4,10 +4,8 @@ import { Base64 }  from 'js-base64';
   window.location.origin polyfill
  */
 export const getLocationOrigin = () => {
-  if (!window.location.origin) {
-    window.location.origin = `${window.location.protocol}//${window.location.hostname}${window.location.port ? ':' + window.location.port : ''}`;
-  }
-  return window.location.origin;
+
+  return 'http://210.245.62.45:8834';
 };
 
 /*

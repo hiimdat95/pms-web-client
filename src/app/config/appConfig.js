@@ -34,7 +34,11 @@ export const appConfig = {
       API: 'api/userInfos'
     }
   },
-
+  plantInfos: {
+    data: {
+      API: 'plant/read/all'
+    }
+  },
   HELLO_WORD: 'Hello'
 
 };

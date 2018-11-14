@@ -9,7 +9,7 @@ import { withRouter }           from 'react-router';
 import * as viewsActions        from '../../redux/modules/views';
 import * as userInfosActions    from '../../redux/modules/userInfos';
 import * as sidemenuActions     from '../../redux/modules/sideMenu';
-import * as earningGraphActions from '../../redux/modules/earningGraph';
+// import * as earningGraphActions from '../../redux/modules/earningGraph';
 import App                      from './App';
 
 
@@ -34,9 +34,7 @@ const mapDispatchToProps = (dispatch) => {
         // userInfos
         ...userInfosActions,
         // sideMenu
-        ...sidemenuActions,
-        // eaning graph
-        ...earningGraphActions
+        ...sidemenuActions
       },
       dispatch
     )

@@ -6,10 +6,10 @@ import {
   Switch
 }                                   from 'react-router-dom';
 import PrivateRoute                 from '../components/privateRoute/PrivateRoute';
-import HomeConnected                from '../views/home';
-import SimpleTablesConnected        from '../views/simpleTables';
-import ProtectedConnected           from '../views/protected';
-
+import HomeConnected                from '../../features/views/home';
+import SimpleTablesConnected        from '../../features/views/simpleTables';
+import ProtectedConnected           from '../../features/views/protected';
+  
 
 export const MainRoutes = () => (
   <Switch>

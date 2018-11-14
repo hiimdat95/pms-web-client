@@ -1,0 +1,8 @@
+@import "./common.scss";
+@import "../../app/containers/app/app";
+@import "../../features/views/home/home";
+// components
+@import "../components/aside/asideLeft/asideLeft";
+@import "../components/aside/asideRight/asideRight";
+@import "../components/header/header";
+@import "../components/horloge/horloge"

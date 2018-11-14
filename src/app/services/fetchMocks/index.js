@@ -2,26 +2,24 @@
 
 import { appConfig }    from '../../config';
 import {
-  earningGraphMockData,
-  userInfosMockData,
-  teamMatesMock
-}                       from '../../models';
+  userInfosMockData
+}                       from '../../../features/models';
 
-export const fetchMockEarningGraphData = (
-  timeToWait: number = appConfig.FAKE_ASYNC_DELAY
-): Promise<any> => {
-  return new Promise(
-    resolve => {
-      setTimeout(
-        () => resolve({
-          labels: earningGraphMockData.labels,
-          datasets: earningGraphMockData.datasets
-        }),
-        timeToWait
-      );
-    }
-  );
-};
+// export const fetchMockEarningGraphData = (
+//   timeToWait: number = appConfig.FAKE_ASYNC_DELAY
+// ): Promise<any> => {
+//   return new Promise(
+//     resolve => {
+//       setTimeout(
+//         () => resolve({
+//           labels: earningGraphMockData.labels,
+//           datasets: earningGraphMockData.datasets
+//         }),
+//         timeToWait
+//       );
+//     }
+//   );
+// };
 
 export const fetchMockUserInfosData = async (
   timeToWait: number = appConfig.FAKE_ASYNC_DELAY
@@ -36,15 +34,15 @@ export const fetchMockUserInfosData = async (
   );
 };
 
-export const fetchMockTeamMatesData = (
-  timeToWait: number = appConfig.FAKE_ASYNC_DELAY
-): Promise<any> => {
-  return new Promise(
-    resolve => {
-      setTimeout(
-        () => resolve([...teamMatesMock]),
-        timeToWait
-      );
-    }
-  );
-};
+// export const fetchMockTeamMatesData = (
+//   timeToWait: number = appConfig.FAKE_ASYNC_DELAY
+// ): Promise<any> => {
+//   return new Promise(
+//     resolve => {
+//       setTimeout(
+//         () => resolve([...teamMatesMock]),
+//         timeToWait
+//       );
+//     }
+//   );
+// };

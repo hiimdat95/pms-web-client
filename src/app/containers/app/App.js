@@ -10,13 +10,13 @@ import {
   // Footer,
   AsideLeft,
   AsideRight
-}                             from '../../components';
-import { Modals }             from '../../views';
+}                             from '../../../common/components';
+import { Modals }             from '../../../features/views';
 import { appConfig }          from '../../config';
-import { navigation }         from '../../models';
+import { navigation }         from '../../../features/models';
 import MainRoutes             from '../../routes/MainRoutes';
 import auth                   from '../../services/auth';
-import UserIMG                from '../../img/user.jpg';
+import UserIMG                from '../../../common/img/user.jpg';
 // #endregion
 
 
@@ -41,7 +41,6 @@ class App extends Component {
     actions: PropTypes.shape({
       enterHome: PropTypes.func,
       leaveHome: PropTypes.func,
-      fetchEarningGraphDataIfNeeded: PropTypes.func,
       fetchUserInfoDataIfNeeded:     PropTypes.func,
       openSideMenu:   PropTypes.func,
       closeSideMenu:  PropTypes.func,

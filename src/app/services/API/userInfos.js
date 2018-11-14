@@ -13,8 +13,8 @@ export const getUserInfoData = () => {
   const options = {...defaultOptions};
 
   fetch(url, options)
-  .then(checkStatus)
-  .then(parseJSON)
-  .then(data => data)
-  .catch(error => error);
+    .then(checkStatus)
+    .then(parseJSON)
+    .then(data => data)
+    .catch(error => error);
 };

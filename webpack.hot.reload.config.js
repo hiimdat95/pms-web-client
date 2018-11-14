@@ -3,7 +3,7 @@ const path         = require('path');
 
 const assetsDir   = path.resolve(__dirname, 'public/assets');
 const vendorsDir  = path.resolve(__dirname, 'src/app/vendors');
-const srcInclude  = path.join(__dirname, 'src/app');
+const srcInclude  = path.join(__dirname, 'src');
 const indexFile   = path.join(__dirname, 'src/app/index.js');
 
 const config = {

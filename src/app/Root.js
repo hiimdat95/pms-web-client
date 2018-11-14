@@ -13,9 +13,9 @@ import { Provider }             from 'react-redux';
 import configureStore           from './redux/store/configureStore';
 import { history }              from './redux/store/configureStore';
 import App                      from './containers/app';
-import ScrollTop                from './components/scrollToTop/ScrollToTop';
-import Login                    from './views/login/index';
-import PageNotFound             from './views/pageNotFound';
+import ScrollTop                from '../common/components/scrollToTop/ScrollToTop';
+import Login                    from '../features/views/login/index';
+import PageNotFound             from '../features/views/pageNotFound';
 
 // #region flow types
 type Props = any;

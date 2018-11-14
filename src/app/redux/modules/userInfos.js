@@ -74,7 +74,6 @@ export default function userInfos(state: UserInfoState = initialState, action: a
 
 
 export function fetchUserInfoDataIfNeeded() {
-  console.log("fetch data")
   return (
     dispatch: (action: any) => any,
     getState: () => any

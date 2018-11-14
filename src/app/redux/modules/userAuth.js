@@ -2,7 +2,7 @@
 
 import moment                 from 'moment';
 import { appConfig }          from '../../config';
-import userInfosMockData      from '../../models/userInfosMock';  // from '../../models/userInfosMocks';
+import userInfosMockData      from '../../../features/models/userInfosMock';  // from '../../models/userInfosMocks';
 import { getLocationOrigin }  from '../../services/fetchTools'; // '../../services/utils';
 import auth                   from '../../services/auth';
 

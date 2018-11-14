@@ -10,13 +10,10 @@ export {
 }                             from './fetchTools';
 // fetchMocks:
 export {
-  fetchMockEarningGraphData,
-  fetchMockUserInfosData,
-  fetchMockTeamMatesData
+  fetchMockUserInfosData
 }                             from './fetchMocks';
 // API:
 export {
-  getEarningGraphData,
-  getTeamMatesData,
-  getUserInfoData
+  getUserInfoData,
+  getListPlant
 }                             from './API';

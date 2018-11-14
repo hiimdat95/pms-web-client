@@ -12,9 +12,9 @@ import "font-awesome/css/font-awesome.min.css";
 import "ionicons/dist/css/ionicons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./style/director-style.css";
-import "./style/highlight/darkula.css";
-import "./style/index.style.scss";
+import "../common/style/director-style.css";
+import "../common/style/highlight/darkula.css";
+import "../common/style/index.style.scss";
 // import configureStore from './redux/store/configureStore';
 import Root from "./Root";
 // #endregion

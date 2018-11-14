@@ -6,6 +6,8 @@ import {
 }                     from '../../services';
 
 const BASE_URL = getLocationOrigin();
+console.log(BASE_URL);
+
 
 export const CALL_API = Symbol('Call API');
 
@@ -20,7 +22,7 @@ export default store => next => action => {
   const [ requestType, successType, errorType ] = types;
 
   store.dispatch({type: requestType});
-  
+
   return callApi(url, options, authenticated)
     .then(
       response => next({

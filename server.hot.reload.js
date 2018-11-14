@@ -14,7 +14,7 @@ const chalk         = require('chalk');
 
 const app       = express();
 const compiler  = webpack(config);
-const PORT      = 8080;
+const PORT      = 8000;
 
 app.use(devMiddleware(compiler, {
   publicPath: config.output.publicPath,

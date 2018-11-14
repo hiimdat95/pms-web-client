@@ -1,7 +1,5 @@
 // flow weak
 
-// earningGraph:
-export {fetchEarningGraphDataIfNeeded} from './earningGraph';
 // sideMenu:
 export {
   openSideMenu,
@@ -9,8 +7,6 @@ export {
   toggleSideMenu,
   getSideMenuCollpasedStateFromLocalStorage
 }                                      from './sideMenu';
-// teamMates:
-export {fetchTeamMatesDataIfNeeded}    from './teamMates';
 // userInfos:
 export {fetchUserInfoDataIfNeeded}     from './userInfos';
 // views:
@@ -72,3 +68,10 @@ export {
   enterPagination,
   leavePagination
 }                                     from './views';
+
+export {
+  fetchTodosRequest,
+  fetchTodosSuccess,
+  fetchTodosFailed,
+  fetchTodos
+} from '../../../features/views/home/todoActions.js'
